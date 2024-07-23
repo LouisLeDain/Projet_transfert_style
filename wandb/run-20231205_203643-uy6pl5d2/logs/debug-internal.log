@@ -1,0 +1,1143 @@
+2023-12-05 20:36:43,044 INFO    StreamThr :7484 [internal.py:wandb_internal():86] W&B internal server running at pid: 7484, started at: 2023-12-05 20:36:43.043189
+2023-12-05 20:36:43,045 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status
+2023-12-05 20:36:43,142 INFO    WriterThread:7484 [datastore.py:open_for_write():85] open: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\run-uy6pl5d2.wandb
+2023-12-05 20:36:43,142 DEBUG   SenderThread:7484 [sender.py:send():380] send: header
+2023-12-05 20:36:43,144 DEBUG   SenderThread:7484 [sender.py:send():380] send: run
+2023-12-05 20:36:43,990 INFO    SenderThread:7484 [dir_watcher.py:__init__():211] watching files in: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files
+2023-12-05 20:36:43,990 INFO    SenderThread:7484 [sender.py:_start_run_threads():1124] run started: uy6pl5d2 with start time 1701805003.052931
+2023-12-05 20:36:43,994 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: check_version
+2023-12-05 20:36:43,994 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: check_version
+2023-12-05 20:36:44,073 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: run_start
+2023-12-05 20:36:45,158 DEBUG   HandlerThread:7484 [system_info.py:__init__():32] System info init
+2023-12-05 20:36:45,158 DEBUG   HandlerThread:7484 [system_info.py:__init__():47] System info init done
+2023-12-05 20:36:45,158 INFO    HandlerThread:7484 [system_monitor.py:start():194] Starting system monitor
+2023-12-05 20:36:45,158 INFO    SystemMonitor:7484 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-05 20:36:45,158 INFO    HandlerThread:7484 [system_monitor.py:probe():214] Collecting system info
+2023-12-05 20:36:45,164 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started cpu monitoring
+2023-12-05 20:36:45,164 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started disk monitoring
+2023-12-05 20:36:45,164 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started gpu monitoring
+2023-12-05 20:36:45,164 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started memory monitoring
+2023-12-05 20:36:45,173 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started network monitoring
+2023-12-05 20:36:45,173 DEBUG   HandlerThread:7484 [system_info.py:probe():196] Probing system
+2023-12-05 20:36:45,183 DEBUG   HandlerThread:7484 [gitlib.py:_init_repo():56] git repository is invalid
+2023-12-05 20:36:45,183 DEBUG   HandlerThread:7484 [system_info.py:probe():244] Probing system done
+2023-12-05 20:36:45,183 DEBUG   HandlerThread:7484 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-12-05T19:36:45.173993', 'startedAt': '2023-12-05T19:36:43.032556', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'LAPTOP-8SSA6NDD', 'username': 'louis', 'executable': 'C:\\Users\\louis\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 475.95995712280273, 'used': 289.60611724853516}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.3643951416015625}}
+2023-12-05 20:36:45,183 INFO    HandlerThread:7484 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-05 20:36:45,183 INFO    HandlerThread:7484 [system_monitor.py:probe():227] Publishing system info
+2023-12-05 20:36:45,183 DEBUG   HandlerThread:7484 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-05 20:36:45,183 DEBUG   HandlerThread:7484 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-05 20:36:45,184 INFO    HandlerThread:7484 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-05 20:36:45,207 DEBUG   SenderThread:7484 [sender.py:send():380] send: files
+2023-12-05 20:36:45,208 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-12-05 20:36:45,226 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:36:45,226 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:36:45,226 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:36:45,234 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: pause
+2023-12-05 20:36:45,234 INFO    HandlerThread:7484 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-12-05 20:36:45,234 INFO    HandlerThread:7484 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-05 20:36:45,234 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-05 20:36:45,246 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-05 20:36:45,246 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-05 20:36:45,246 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined disk monitor
+2023-12-05 20:36:45,246 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-05 20:36:45,295 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-05 20:36:45,295 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined memory monitor
+2023-12-05 20:36:45,295 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined network monitor
+2023-12-05 20:36:45,433 DEBUG   SenderThread:7484 [sender.py:send():380] send: telemetry
+2023-12-05 20:36:45,433 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:36:45,717 INFO    wandb-upload_0:7484 [upload_job.py:push():131] Uploaded file C:\Users\louis\AppData\Local\Temp\tmpp1c9p488wandb\jqx9jib8-wandb-metadata.json
+2023-12-05 20:36:45,996 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-metadata.json
+2023-12-05 20:36:45,996 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\requirements.txt
+2023-12-05 20:36:48,442 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:36:53,479 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:36:58,520 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:00,238 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:37:00,238 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:37:00,239 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:37:04,501 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:09,539 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:14,574 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:15,196 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\config.yaml
+2023-12-05 20:37:15,244 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:37:15,260 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:37:15,260 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:37:20,459 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:25,510 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:26,912 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: resume
+2023-12-05 20:37:26,912 INFO    HandlerThread:7484 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-12-05 20:37:26,912 INFO    HandlerThread:7484 [system_monitor.py:start():194] Starting system monitor
+2023-12-05 20:37:26,912 INFO    SystemMonitor:7484 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-05 20:37:26,914 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started cpu monitoring
+2023-12-05 20:37:26,922 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started disk monitoring
+2023-12-05 20:37:26,923 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started gpu monitoring
+2023-12-05 20:37:26,923 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:26,923 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started memory monitoring
+2023-12-05 20:37:26,923 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:26,934 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started network monitoring
+2023-12-05 20:37:28,310 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\output.log
+2023-12-05 20:37:30,252 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:37:30,266 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:37:30,266 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:37:30,326 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\output.log
+2023-12-05 20:37:31,423 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:31,821 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:31,821 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:32,162 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:32,164 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:32,166 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:32,169 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:32,341 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:33,546 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:33,548 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:33,548 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:33,552 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:34,357 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:34,943 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:34,943 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:34,943 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:34,945 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:35,373 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:36,212 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:36,213 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:36,213 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:36,214 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:36,235 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:36,235 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:36,379 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:37,229 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:37,493 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:37,493 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:37,494 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:37,499 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:38,401 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:38,717 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:38,717 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:38,717 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:38,723 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:39,414 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:39,964 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:39,964 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:39,964 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:39,964 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:40,429 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:40,650 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:40,650 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:41,302 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:41,303 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:41,304 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:41,307 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:41,441 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:42,323 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:42,567 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:42,567 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:42,567 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:42,574 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:43,453 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:43,852 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:43,852 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:43,852 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:43,852 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:44,459 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:45,070 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:45,070 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:45,134 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:45,134 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:45,134 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:45,134 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:45,260 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:37:45,276 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:37:45,276 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:37:45,469 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:46,493 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:46,494 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:46,494 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:46,494 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:47,486 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:47,502 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:47,801 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:47,802 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:47,803 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:47,805 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:48,514 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:49,297 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:49,297 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:49,297 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:49,297 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:49,480 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:49,480 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:49,512 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:50,644 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:50,646 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:50,646 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:50,646 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:51,527 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:51,966 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:51,967 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:51,967 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:51,969 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:52,542 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:52,970 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:53,276 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:53,277 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:53,278 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:53,282 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:53,558 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:53,906 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:53,906 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:54,647 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:54,647 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:54,647 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:54,647 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:55,575 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:55,960 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:55,963 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:55,963 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:55,964 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:56,579 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:57,267 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:57,267 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:57,267 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:57,272 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:57,593 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:58,278 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:37:58,341 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:58,341 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:37:58,603 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:58,603 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:58,606 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:58,608 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:37:59,613 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:37:59,952 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:37:59,953 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:37:59,954 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:37:59,957 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:00,275 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:38:00,292 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:38:00,292 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:38:00,623 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:01,302 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:01,303 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:01,303 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:01,304 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:01,640 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:02,582 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:02,582 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:02,587 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:02,587 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:02,648 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:02,854 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:02,854 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:03,606 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:03,900 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:03,902 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:03,902 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:03,906 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:04,673 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:05,222 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:05,223 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:05,224 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:05,227 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:05,677 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:06,529 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:06,529 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:06,532 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:06,535 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:06,690 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:07,273 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:07,273 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:07,813 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:07,813 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:07,814 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:07,815 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:08,696 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:08,822 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:09,192 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:09,193 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:09,193 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:09,193 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:09,706 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:10,403 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:10,404 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:10,405 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:10,407 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:10,708 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:11,680 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:11,680 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:11,746 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:11,746 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:11,747 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:11,749 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:12,727 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:13,095 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:13,095 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:13,095 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:13,095 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:13,742 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:14,111 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:14,383 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:14,384 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:14,384 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:14,384 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:14,744 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:15,279 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:38:15,310 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:38:15,310 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:38:15,644 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:15,644 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:15,644 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:15,644 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:15,744 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:16,105 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:16,105 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:16,996 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:16,997 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:16,998 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:17,000 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:17,757 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:18,307 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:18,307 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:18,312 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:18,315 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:18,773 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:19,326 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:19,553 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:19,553 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:19,553 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:19,563 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:19,776 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:20,539 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:20,540 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:20,834 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:20,834 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:20,834 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:20,834 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:21,783 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:22,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:22,174 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:22,174 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:22,177 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:22,792 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:23,514 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:23,515 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:23,515 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:23,516 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:23,805 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:24,523 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:24,812 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:24,813 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:24,813 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:24,817 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:24,956 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:24,956 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:25,812 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:26,142 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:26,143 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:26,143 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:26,143 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:26,826 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:26,939 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-05 20:38:26,939 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:38:27,425 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:27,425 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:27,425 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:27,425 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:27,839 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:28,726 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:28,726 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:28,726 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:28,726 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:28,845 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:29,390 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:29,390 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:29,742 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:30,026 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:30,026 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:30,026 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:30,026 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:30,292 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:38:30,323 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:38:30,323 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:38:30,875 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:31,335 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:31,343 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:31,343 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:31,343 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:31,882 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:32,608 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:32,613 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:32,613 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:32,614 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:32,889 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:33,884 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:33,885 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:33,886 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:33,888 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:33,892 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:34,890 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:35,158 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:35,162 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:35,163 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:35,163 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:35,907 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:36,454 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:36,454 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:36,454 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:36,457 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:36,907 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:37,717 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:37,717 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:37,717 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:37,717 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:37,923 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:38,323 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:38,323 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:39,002 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:39,003 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:39,003 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:39,006 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:39,945 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:40,022 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:40,252 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:40,253 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:40,254 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:40,257 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:40,956 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:41,543 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:41,547 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:41,547 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:41,547 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:41,958 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:42,746 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:42,746 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:42,785 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:42,785 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:42,789 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:42,790 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:42,974 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:44,062 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:44,062 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:44,062 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:44,062 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:44,994 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:45,072 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:45,298 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:38:45,298 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:45,303 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:45,303 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:45,306 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:45,324 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:38:45,324 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:38:46,007 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:46,579 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:46,580 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:46,581 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:46,582 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:47,024 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:47,156 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:47,156 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:47,844 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:47,844 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:47,844 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:47,844 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:48,039 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:49,157 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:49,157 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:49,162 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:49,163 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:50,057 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:50,174 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:50,503 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:50,507 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:50,507 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:50,509 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:51,062 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:51,588 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:51,588 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:51,812 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:51,813 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:51,814 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:51,815 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:52,074 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:53,108 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:53,108 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:53,113 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:53,113 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:54,089 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:54,383 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:54,383 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:54,383 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:54,391 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:55,104 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:55,406 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:38:55,637 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:55,637 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:55,640 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:55,643 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:56,023 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:56,023 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:38:56,107 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:56,924 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:56,924 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:56,924 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:56,924 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:56,942 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:38:57,123 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:58,228 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:58,230 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:58,230 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:58,233 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:38:59,139 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:38:59,475 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:38:59,475 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:38:59,475 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:38:59,483 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:00,140 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:00,305 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:39:00,323 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:39:00,324 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:39:00,439 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:00,440 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:00,544 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:00,756 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:00,757 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:00,757 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:00,757 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:01,140 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:02,013 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:02,013 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:02,013 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:02,023 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:02,153 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:03,263 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:03,263 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:03,263 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:03,263 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:04,162 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:04,517 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:04,517 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:04,517 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:04,517 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:04,872 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:04,873 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:05,173 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:05,784 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:05,784 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:05,790 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:05,791 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:05,793 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:06,179 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:07,072 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:07,073 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:07,073 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:07,076 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:07,189 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:08,325 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:08,327 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:08,327 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:08,330 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:09,199 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:09,362 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:09,362 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:09,597 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:09,597 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:09,602 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:09,605 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:10,206 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:10,908 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:10,912 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:10,913 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:10,913 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:10,913 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:11,207 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:12,213 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:12,214 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:12,214 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:12,214 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:13,223 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:13,513 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:13,513 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:13,513 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:13,513 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:13,780 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:13,780 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:14,224 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:14,765 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:14,773 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:14,773 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:14,776 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:15,238 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:15,307 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:39:15,339 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:39:15,341 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:39:16,034 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:16,034 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:16,034 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:16,040 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:16,043 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:16,242 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:17,342 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:17,342 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:17,342 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:17,342 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:18,222 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:18,222 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:18,257 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:18,623 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:18,624 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:18,625 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:18,627 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:19,257 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:19,844 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:19,844 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:19,844 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:19,853 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:20,273 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:21,143 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:21,143 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:21,143 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:21,143 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:21,153 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:21,278 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:22,404 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:22,405 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:22,406 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:22,408 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:22,637 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:22,637 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:23,290 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:23,673 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:23,673 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:23,673 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:23,673 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:24,306 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:24,943 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:24,943 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:24,943 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:24,943 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:25,307 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:26,203 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:26,203 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:26,203 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:26,203 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:26,206 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:26,313 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:26,957 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:39:27,058 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:27,058 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:27,493 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:27,493 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:27,493 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:27,497 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:28,324 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:28,757 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:28,757 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:28,757 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:28,762 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:29,325 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:30,042 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:30,042 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:30,042 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:30,042 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:30,322 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:39:30,339 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:30,345 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:39:30,345 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:39:31,332 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:31,334 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:31,336 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:31,337 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:31,339 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:31,353 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:31,489 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:31,489 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:32,628 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:32,629 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:32,630 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:32,632 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:33,357 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:33,863 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:33,863 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:33,863 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:33,867 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:34,374 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:35,089 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:35,090 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:35,091 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:35,093 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:35,389 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:35,913 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:35,913 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:36,357 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:36,357 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:36,357 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:36,363 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:36,365 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:36,390 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:37,652 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:37,655 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:37,657 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:37,660 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:38,407 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:38,925 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:38,932 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:38,933 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:38,934 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:39,412 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:40,164 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:40,164 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:40,164 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:40,164 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:40,423 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:41,464 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:41,473 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:41,474 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:41,475 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:41,475 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:42,457 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:42,723 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:42,725 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:42,725 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:42,728 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:43,463 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:43,993 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:43,994 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:43,994 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:43,994 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:44,474 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:44,856 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:44,856 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:45,284 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:45,284 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:45,284 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:45,289 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:45,337 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:39:45,356 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:39:45,358 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:39:45,479 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:46,566 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:46,593 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:46,597 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:46,597 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:46,597 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:47,492 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:47,895 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:47,895 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:47,902 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:47,903 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:48,506 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:49,207 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:49,207 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:49,207 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:49,207 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:49,289 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:49,289 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:49,507 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:50,562 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:50,562 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:50,563 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:50,563 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:51,524 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:51,573 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:51,867 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:51,867 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:51,867 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:51,872 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:52,538 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:53,133 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:53,134 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:53,135 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:53,138 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:53,545 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:53,723 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:53,723 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:54,425 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:54,432 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:54,433 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:54,435 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:54,557 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:55,724 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:55,724 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:55,724 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:55,724 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:56,575 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:56,739 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:39:56,946 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:56,946 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:56,952 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:56,953 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:56,958 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:39:57,589 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:58,140 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:58,140 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:39:58,194 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:58,202 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:58,203 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:58,203 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:58,591 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:39:59,474 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:39:59,474 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:39:59,474 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:39:59,474 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:39:59,606 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:00,340 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:40:00,365 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:40:00,365 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:40:00,803 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:00,804 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:00,804 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:00,807 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:01,609 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:01,822 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:02,074 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:02,074 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:02,074 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:02,074 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:02,573 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:02,573 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:02,612 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:03,372 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:03,373 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:03,374 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:03,375 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:03,623 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:04,633 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:04,635 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:04,636 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:04,638 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:05,640 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:05,906 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:05,907 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:05,907 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:05,907 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:06,643 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:06,922 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:06,988 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:06,988 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:07,157 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:07,157 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:07,157 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:07,162 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:07,653 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:08,464 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:08,464 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:08,464 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:08,464 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:08,656 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:09,712 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:09,712 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:09,712 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:09,712 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:10,674 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:10,947 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:10,947 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:10,947 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:10,947 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:11,407 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:11,407 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:11,674 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:11,956 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:12,233 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:12,233 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:12,233 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:12,233 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:12,689 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:13,493 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:13,493 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:13,493 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:13,502 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:13,692 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:14,767 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:14,767 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:14,767 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:14,773 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:15,342 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:40:15,377 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:40:15,377 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:40:15,707 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:15,905 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:15,905 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:16,034 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:16,034 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:16,034 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:16,040 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:16,710 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:17,055 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:17,325 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:17,332 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:17,332 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:17,333 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:17,713 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:18,595 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:18,596 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:18,596 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:18,596 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:18,724 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:19,843 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:19,843 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:19,843 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:19,846 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:20,323 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:20,323 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:20,740 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:21,133 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:21,134 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:21,135 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:21,137 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:21,756 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:22,139 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:22,355 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:22,357 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:22,358 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:22,358 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:22,757 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:23,636 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:23,637 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:23,637 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:23,639 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:23,773 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:24,755 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:24,755 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:24,903 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:24,903 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:24,905 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:24,907 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:25,781 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:26,217 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:26,218 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:26,219 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:26,221 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:26,790 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:26,964 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:40:27,514 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:27,514 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:27,522 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:27,522 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:27,523 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:27,807 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:28,794 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:28,795 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:28,796 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:28,797 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:28,824 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:29,172 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:29,172 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:30,107 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:30,108 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:30,109 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:30,112 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:30,359 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:40:30,369 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:40:30,369 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:40:30,842 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:31,433 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:31,433 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:31,433 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:31,433 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:31,856 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:32,755 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:32,756 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:32,757 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:32,759 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:32,761 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:32,857 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:33,592 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:33,592 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:34,068 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:34,068 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:34,068 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:34,073 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:34,874 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:35,417 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:35,417 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:35,417 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:35,423 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:35,889 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:36,750 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:36,750 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:36,752 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:36,753 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:36,897 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:37,758 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:38,006 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:38,006 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:38,071 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:38,072 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:38,074 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:38,075 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:38,909 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:39,381 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:39,381 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:39,383 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:39,385 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:39,909 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:40,688 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-05 20:40:40,689 DEBUG   SenderThread:7484 [sender.py:send():380] send: history
+2023-12-05 20:40:40,690 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: summary_record
+2023-12-05 20:40:40,692 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:40,912 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:42,083 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: pause
+2023-12-05 20:40:42,083 INFO    HandlerThread:7484 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-12-05 20:40:42,083 INFO    HandlerThread:7484 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-05 20:40:42,083 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-05 20:40:42,083 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-05 20:40:42,083 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-05 20:40:42,093 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined disk monitor
+2023-12-05 20:40:42,524 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-05 20:40:42,524 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined memory monitor
+2023-12-05 20:40:42,524 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined network monitor
+2023-12-05 20:40:42,524 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:40:43,539 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:45,368 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:40:45,383 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-05 20:40:45,383 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: stop_status
+2023-12-05 20:40:46,704 WARNING FileStreamThread:7484 [file_stream.py:request_with_retry():668] requests_with_retry encountered retryable exception: 502 Server Error: Bad Gateway for url: https://api.wandb.ai/files/louisledain/projet%20transfert%20de%20style/uy6pl5d2/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x000001DE3EA71AF0>>, timeout=180), args: ('https://api.wandb.ai/files/louisledain/projet transfert de style/uy6pl5d2/file_stream',), kwargs: {'json': {'files': {'wandb-summary.json': {'offset': 0, 'content': ['{"loss": 0.5248779058456421, "_timestamp": 1701805185.2834437, "_runtime": 182.23051261901855, "_step": 103}']}, 'wandb-history.jsonl': {'offset': 97, 'content': ['{"loss": 0.5865399241447449, "_timestamp": 1701805177.6528575, "_runtime": 174.5999264717102, "_step": 97}', '{"loss": 0.5684773921966553, "_timestamp": 1701805178.9252498, "_runtime": 175.87231874465942, "_step": 98}', '{"loss": 0.5420041680335999, "_timestamp": 1701805180.1646502, "_runtime": 177.11171913146973, "_step": 99}', '{"loss": 0.5387791395187378, "_timestamp": 1701805181.4649642, "_runtime": 178.4120330810547, "_step": 100}', '{"loss": 0.54998379945755, "_timestamp": 1701805182.7231383, "_runtime": 179.67020726203918, "_step": 101}', '{"loss": 0.54205721616745, "_timestamp": 1701805183.9875379, "_runtime": 180.9346067905426, "_step": 102}', '{"loss": 0.5248779058456421, "_timestamp": 1701805185.2834437, "_runtime": 182.23051261901855, "_step": 103}', '{"loss": 0.528482973575592, "_timestamp": 1701805186.5933397, "_runtime": 183.5404086112976, "_step": 104}']}}, 'dropped': 0}}
+2023-12-05 20:40:48,637 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:53,006 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: resume
+2023-12-05 20:40:53,006 INFO    HandlerThread:7484 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-12-05 20:40:53,006 INFO    HandlerThread:7484 [system_monitor.py:start():194] Starting system monitor
+2023-12-05 20:40:53,007 INFO    SystemMonitor:7484 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-05 20:40:53,014 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started cpu monitoring
+2023-12-05 20:40:53,015 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started disk monitoring
+2023-12-05 20:40:53,016 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started gpu monitoring
+2023-12-05 20:40:53,016 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:53,017 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started memory monitoring
+2023-12-05 20:40:53,017 ERROR   gpu       :7484 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2023-12-05 20:40:53,028 INFO    SystemMonitor:7484 [interfaces.py:start():190] Started network monitoring
+2023-12-05 20:40:53,028 DEBUG   SenderThread:7484 [sender.py:send():380] send: telemetry
+2023-12-05 20:40:53,029 DEBUG   SenderThread:7484 [sender.py:send():380] send: exit
+2023-12-05 20:40:53,029 INFO    SenderThread:7484 [sender.py:send_exit():585] handling exit code: 0
+2023-12-05 20:40:53,029 INFO    SenderThread:7484 [sender.py:send_exit():587] handling runtime: 196
+2023-12-05 20:40:53,031 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:53,031 INFO    SenderThread:7484 [sender.py:send_exit():593] send defer
+2023-12-05 20:40:53,031 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:53,031 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-05 20:40:53,032 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:53,032 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-12-05 20:40:53,032 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 1
+2023-12-05 20:40:53,032 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:53,032 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-05 20:40:53,032 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:53,032 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-12-05 20:40:53,032 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 2
+2023-12-05 20:40:53,032 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:53,032 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-05 20:40:53,032 INFO    HandlerThread:7484 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-05 20:40:53,032 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-05 20:40:53,032 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-05 20:40:53,033 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-05 20:40:53,033 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined disk monitor
+2023-12-05 20:40:53,033 DEBUG   SystemMonitor:7484 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-05 20:40:53,034 INFO    Thread-16 :7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:53,923 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-05 20:40:53,923 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined memory monitor
+2023-12-05 20:40:53,924 INFO    HandlerThread:7484 [interfaces.py:finish():202] Joined network monitor
+2023-12-05 20:40:53,924 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:53,924 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-12-05 20:40:53,924 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 3
+2023-12-05 20:40:53,927 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:53,928 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-05 20:40:53,928 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:54,038 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-05 20:40:54,083 DEBUG   SenderThread:7484 [sender.py:send():380] send: stats
+2023-12-05 20:40:54,087 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 4
+2023-12-05 20:40:54,087 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: poll_exit
+2023-12-05 20:40:54,087 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:54,087 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-05 20:40:54,087 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 5
+2023-12-05 20:40:54,087 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:54,087 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-05 20:40:54,087 DEBUG   SenderThread:7484 [sender.py:send():380] send: summary
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-12-05 20:40:54,087 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-12-05 20:40:54,087 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 6
+2023-12-05 20:40:54,087 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:54,087 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-05 20:40:54,090 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:54,090 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-12-05 20:40:54,090 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 7
+2023-12-05 20:40:54,090 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-05 20:40:54,090 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:54,090 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-05 20:40:54,090 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:54,090 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 8
+2023-12-05 20:40:55,024 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:55,024 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-05 20:40:55,024 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [job_builder.py:_get_source_type():439] no source found
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 9
+2023-12-05 20:40:55,024 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:55,024 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-05 20:40:55,024 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-12-05 20:40:55,024 INFO    SenderThread:7484 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-05 20:40:55,040 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-05 20:40:55,042 INFO    SenderThread:7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\output.log
+2023-12-05 20:40:55,043 INFO    SenderThread:7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:55,043 INFO    SenderThread:7484 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\config.yaml
+2023-12-05 20:40:55,043 INFO    SenderThread:7484 [dir_watcher.py:finish():388] scan: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files
+2023-12-05 20:40:55,043 INFO    SenderThread:7484 [dir_watcher.py:finish():402] scan save: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\config.yaml config.yaml
+2023-12-05 20:40:55,044 INFO    SenderThread:7484 [dir_watcher.py:finish():402] scan save: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\output.log output.log
+2023-12-05 20:40:55,044 INFO    SenderThread:7484 [dir_watcher.py:finish():402] scan save: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\requirements.txt requirements.txt
+2023-12-05 20:40:55,044 INFO    SenderThread:7484 [dir_watcher.py:finish():402] scan save: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-metadata.json wandb-metadata.json
+2023-12-05 20:40:55,044 INFO    SenderThread:7484 [dir_watcher.py:finish():402] scan save: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json wandb-summary.json
+2023-12-05 20:40:55,044 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 10
+2023-12-05 20:40:55,052 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: poll_exit
+2023-12-05 20:40:55,053 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:55,053 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-05 20:40:55,053 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:55,056 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-12-05 20:40:55,056 INFO    SenderThread:7484 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-05 20:40:55,382 INFO    wandb-upload_0:7484 [upload_job.py:push():131] Uploaded file c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\config.yaml
+2023-12-05 20:40:55,403 INFO    wandb-upload_1:7484 [upload_job.py:push():131] Uploaded file c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\output.log
+2023-12-05 20:40:55,414 INFO    wandb-upload_3:7484 [upload_job.py:push():131] Uploaded file c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\wandb-summary.json
+2023-12-05 20:40:55,463 INFO    wandb-upload_2:7484 [upload_job.py:push():131] Uploaded file c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\files\requirements.txt
+2023-12-05 20:40:55,673 INFO    Thread-15 :7484 [sender.py:transition_state():613] send defer: 11
+2023-12-05 20:40:55,673 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:55,674 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-05 20:40:55,674 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:55,674 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-12-05 20:40:55,674 INFO    SenderThread:7484 [file_pusher.py:join():181] waiting for file pusher
+2023-12-05 20:40:55,674 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 12
+2023-12-05 20:40:55,674 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:55,674 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-05 20:40:55,674 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:55,674 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-12-05 20:40:55,674 INFO    SenderThread:7484 [file_stream.py:finish():595] file stream finish called
+2023-12-05 20:40:56,054 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-05 20:40:56,164 INFO    SenderThread:7484 [file_stream.py:finish():599] file stream finish is done
+2023-12-05 20:40:56,164 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 13
+2023-12-05 20:40:56,164 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: poll_exit
+2023-12-05 20:40:56,164 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:56,164 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-05 20:40:56,164 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:56,164 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-12-05 20:40:56,164 INFO    SenderThread:7484 [sender.py:transition_state():613] send defer: 14
+2023-12-05 20:40:56,164 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: defer
+2023-12-05 20:40:56,164 INFO    HandlerThread:7484 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-05 20:40:56,164 DEBUG   SenderThread:7484 [sender.py:send():380] send: final
+2023-12-05 20:40:56,164 DEBUG   SenderThread:7484 [sender.py:send():380] send: footer
+2023-12-05 20:40:56,164 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: defer
+2023-12-05 20:40:56,164 INFO    SenderThread:7484 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-12-05 20:40:56,172 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-05 20:40:56,172 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: poll_exit
+2023-12-05 20:40:56,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-05 20:40:56,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: server_info
+2023-12-05 20:40:56,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-05 20:40:56,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-05 20:40:56,173 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: job_info
+2023-12-05 20:40:56,173 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: server_info
+2023-12-05 20:40:56,302 DEBUG   SenderThread:7484 [sender.py:send_request():407] send_request: job_info
+2023-12-05 20:40:56,303 DEBUG   HandlerThread:7484 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-05 20:40:56,303 INFO    HandlerThread:7484 [handler.py:finish():866] shutting down handler
+2023-12-05 20:40:57,190 INFO    WriterThread:7484 [datastore.py:close():294] close: c:\Users\louis\Documents\CentraleSupélec\1A\Assos\Automatants\Projet Transfert de Style\wandb\run-20231205_203643-uy6pl5d2\run-uy6pl5d2.wandb
+2023-12-05 20:40:57,306 INFO    SenderThread:7484 [sender.py:finish():1536] shutting down sender
+2023-12-05 20:40:57,307 INFO    SenderThread:7484 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-05 20:40:57,307 INFO    SenderThread:7484 [file_pusher.py:join():181] waiting for file pusher
